@@ -4,3 +4,5 @@ enableXsrfProtection = false
 
 [browser]
 gatherUsageStats = false
+[runner]
+pythonVersion = "3.10"
