@@ -1,3 +1,6 @@
+import os
+os.environ["OPENCV_HEADLESS"] = "1"
+os.environ["DISPLAY"] = ":0"
 import streamlit as st
 from ultralytics import YOLO
 import cv2
